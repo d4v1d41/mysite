@@ -94,7 +94,8 @@ p{color: #869093; font-size: 14px; line-height: 26px;  padding-bottom: 15px; mar
 	.menu .navbar .nav > li > a:hover{background: #2a2a2a; color: #f85c5e;}
 	.site-name{margin-top: -10px; position: absolute;}
 	.site-name h1{background: #f85c5e; color: #fff; padding:20px ; border-radius: 5px; text-transform: uppercase;}
-	
+    .site-name h1:hover {background: #e66b6b; color: #fff; padding:20px ; border-radius: 12px; text-transform: uppercase;text-shadow: 0 0 29px #ffffff;}
+
 	.banner{text-align: center; margin-top: 55px;border-radius: 5px;
 			border: 20px solid #fff; border-bottom: none; margin-bottom: -4px;}
 	.banner .carousel{margin-bottom: 0;}
@@ -160,7 +161,7 @@ p{color: #869093; font-size: 14px; line-height: 26px;  padding-bottom: 15px; mar
 	.featured-blocks .block .block-title{}
 	.featured-blocks .block .block-content{}
 
-	.general-posts{overflow: hidden; margin-bottom: 25px; width: 50em;}
+	.general-posts{overflow: hidden; margin-bottom: 25px;}
 	.user-info{padding:25px 15px 0 15px; border-radius: 5px 5px 0 0; background: #fff;}
 	.user-info img{width: 30%; margin-left: 20px;}
 	.user-info h1{color: #747474; font-size: 17px; line-height: 24px; padding-bottom: 25px; text-transform: uppercase; font-weight: normal; margin-left: 30px;}
@@ -176,8 +177,8 @@ p{color: #869093; font-size: 14px; line-height: 26px;  padding-bottom: 15px; mar
 	.sidebar .custom-input input{width: 75%;}
 	.sidebar .custom-input .btn{width: 25%;}
 	.sidebar .search-form{padding: 15px 0; margin-bottom: 0;}
-	.sidebar .search-form input{ border-right: 0; background: #f7f7f7; color: #b5bcbe; 
-								font-family: 'open_sansregular'; padding: 7px; line-height: 15px; 
+	.sidebar .search-form input{ border-right: 0; background: #f7f7f7; color: #b5bcbe;
+								font-family: 'open_sansregular'; padding: 7px; line-height: 15px;
 								padding-left: 10px; padding-right: 22px; border: none;}
 	.sidebar .search-form .input-append .btn{border-radius: 0;  background-image: none !important;
 											 background: #f7f7f7; padding: 4px 0;
@@ -214,7 +215,7 @@ p{color: #869093; font-size: 14px; line-height: 26px;  padding-bottom: 15px; mar
 	.social{}
 	.social ul{margin: 0;}
 	.social ul li{list-style: none; display: inline-block; margin-right: 8px;}
-	.social ul li a [class^="fw-icon-"]{color: #656565;  font-size: 22px; width: 15px; 
+	.social ul li a [class^="fw-icon-"]{color: #656565;  font-size: 22px; width: 15px;
 		height: 15px; padding: 3px; border-radius: 4px;}
 	.social ul li a [class^="fw-icon-"]:hover{color: #fff; text-decoration: none;}
 	.footer-menu{}
