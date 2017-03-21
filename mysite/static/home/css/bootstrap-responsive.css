@@ -101,7 +101,7 @@
   .navbar{margin-top: 60px !important;}
   .site-name{ left: 37% !important; margin-top: -85px !important;}
   .header-wrapper{margin: 0 -20px !important; padding: 0 20px !important;}
-  .site-header{margin: 0 -20px !important; padding: 0 20px !important;margin-top: 100px !important;} 
+  .site-header{margin: 0 -20px !important; padding: 0 20px !important;margin-top: 100px !important;}
   .v-divider{background:none !important;}
   .banner{margin-top: 30px !important;}
   .banner .carousel-caption{top: 21% !important;}
@@ -119,7 +119,7 @@
   .footer-wrapper{margin: 0 -20px !important; padding: 30px 20px !important;}
   .footer-links{padding-bottom: 0 !important;}
   .footer-links .copy-rights{margin-bottom: 30px !important;}
-  
+
   .hidden-desktop {
     display: inherit !important;
   }
@@ -309,6 +309,7 @@
   .row-fluid .span4 {
     width: 31.623931623931625%;
     *width: 31.570740134569924%;
+    margin-left:0;
   }
   .row-fluid .span3 {
     width: 23.076923076923077%;
@@ -999,7 +1000,7 @@
     margin: -10px;
   }
   .carousel-caption {
-    
+
   }
 }
 
