@@ -34,7 +34,7 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 # MEDIA is for dynamic files, as IMGFIELD and FILEFIELD (Models). user uploads.
-MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')
+MEDIA_ROOT = '/var/www/static/media'
 MEDIA_URL = '/media/'
 
 INSTALLED_APPS = [

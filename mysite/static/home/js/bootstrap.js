@@ -1663,7 +1663,10 @@
 
  /* SCROLLSPY DATA-API
   * ================== */
-
+  $(window).load(function() {
+       $("#loading").fadeOut(800);
+       $("#loading-center").fadeOut(800);
+  })
   $(window).on('load', function () {
     $('[data-spy="scroll"]').each(function () {
       var $spy = $(this)

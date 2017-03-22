@@ -840,7 +840,7 @@
 }
 
 @media (max-width: 767px) {
-  body {
+  .ALL {
     padding-right: 20px;
     padding-left: 20px;
   }

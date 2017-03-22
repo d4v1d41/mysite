@@ -19,12 +19,36 @@
         <link rel="stylesheet" href="static/home/css/font-awesome-ie7.css">
 
         <script src="static/home/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="static/home/js/main.js"></script>
     </head>
     <body>
+        <div id="loading">
+        <div id="loading-center">
+        <div id="loading-center-absolute-one">
+        <div class="object-one"></div>
+        <div class="object-one"></div>
+        <div class="object-one"></div>
+        <div class="object-one"></div>
+        <div class="object-one"></div>
+        <div class="object-one"></div>
+
+        </div>
+        <div id="loading-center-absolute-two">
+        <div class="object-two"></div>
+        <div class="object-two"></div>
+        <div class="object-two"></div>
+        <div class="object-two"></div>
+        <div class="object-two"></div>
+        <div class="object-two"></div>
+
+        </div>
+        </div>
+
+        </div>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
+	<div class="ALL">
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
             <div class="header-wrapper">
                 <div class="site-header">
@@ -42,22 +66,29 @@
                                 <div class="nav-collapse collapse">
                                     <ul class="nav">
                                         <li class="active"><a href="#">Home</a></li>
-                                        <li><a href="/about">About</a></li>
-                                        <li><a href="/services">Services</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
                                         <li><a href="https://github.com/d4v1d41">My Github</a></li>
-                                        <li><a href="/contact">Contact</a></li>
+                                        <li><a href="mailto:alejandropenott@outlook.com">Contact</a></li>
                                     </ul>
                                 </div><!--/.nav-collapse -->
                             </div>
                             <div class="mini-menu">
             <label>
-          <select class="selectnav">
+          <select class="selectnav" id="foo">
             <option value="#" selected="">Home</option>
-            <option value="#">About</option>
-            <option value="#">Services</option>
-            <option value="#">Work</option>
+            <option value="mailto:alejandropenott@outlook.com">About</option>
+            <option value="mailto:alejandropenott@outlook.com">Services</option>
+            <option value="https://github.com/d4v1d41">My Github</option></a>
             <option value="#">Contact</option>
           </select>
+              <script>
+                    document.getElementById("foo").onchange = function() {
+                        if (this.selectedIndex!==0) {
+                            window.location.href = this.value;
+                        }
+                    };
+            </script>
           </label>
           </div>
                         </div>
@@ -107,7 +138,7 @@
                             <div class="block v-divider border">
                                 <i class="fw-icon-download"></i>
                                 <h1>Download Résumé</h1>
-                                <p class="last"><a href="static/home/David_CV.pdf">Here</a></p>
+                                <p class="last"><a href="https://mega.nz/#F!R5FHXaYB!3TgsLumY8SdhS-75wVZgQQ">Here</a></p>
                             </div>
                         </div>
                         <div class="span3">
@@ -234,11 +265,11 @@
                         <div class="row-fluid">
                         <div class="social span3">
                             <ul>
-                                <li><a href="#"><i class="fw-icon-facebook-sign"></i></a></li>
-                                <li><a href="#"><i class="fw-icon-twitter-sign"></i></a></li>
-                                <li><a href="#"><i class="fw-icon-linkedin-sign"></i></a></li>
-                                <li><a href="#"><i class="fw-icon-pinterest-sign"></i></a></li>
-                                <li><a href="#"><i class="fw-icon-phone-sign"></i></a></li>
+                                <li><a href="https://www.facebook.com/DavidPenottr"><i class="fw-icon-facebook-sign"></i></a></li>
+                                <li><a href="https://www.twitter.com/justdavidpr"><i class="fw-icon-twitter-sign"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/david-ramos-penott-05a472133/"><i class="fw-icon-linkedin-sign"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/david-ramos-penott-05a472133/"><i class="fw-icon-pinterest-sign"></i></a></li>
+                                <li><a href="mailto:alejandropenott@gmail.com"><i class="fw-icon-phone-sign"></i></a></li>
                             </ul>
                         </div>
                         <div class="footer-menu span9">
@@ -260,5 +291,6 @@ $('#myCarousel').carousel({
     interval: 1800
 });
 </script>
+</div>
     </body>
 </html>
